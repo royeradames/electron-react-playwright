@@ -36,6 +36,7 @@ const Hello = () => {
           </button>
         </a>
       </div>
+      <p>Created by Royer Adames</p>
     </div>
   );
 };
