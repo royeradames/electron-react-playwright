@@ -36,7 +36,7 @@ const Hello = () => {
           </button>
         </a>
       </div>
-      <p>Created by Royer Adames</p>
+      <p>Created by Royer Adames. Repo working properly.</p>
     </div>
   );
 };
