@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import icon from '../assets/icon.svg';
 import './App.global.css';
+import playwrightScript from './playWright/index';
 
 const Hello = () => {
   return (
@@ -37,6 +38,14 @@ const Hello = () => {
         </a>
       </div>
       <p>Created by Royer Adames. Repo working properly.</p>
+      <button
+        type="button"
+        onClick={() => {
+          playwrightScript();
+        }}
+      >
+        Start the Playwright Script
+      </button>
     </div>
   );
 };
