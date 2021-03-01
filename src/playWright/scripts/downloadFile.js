@@ -1,6 +1,6 @@
 require('dotenv').config();
-import reattachFrame from ('./reattachFrame');
-import startReportDownloadStatus from ('./startReportDownloadStatus');
+import reattachFrame from './reattachFrame';
+import startReportDownloadStatus from './startReportDownloadStatus';
 
 async function downloadFile(page) {
   /* select child frame */

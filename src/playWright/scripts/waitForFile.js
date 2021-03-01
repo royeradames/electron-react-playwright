@@ -1,4 +1,4 @@
-import reattachFrame from ('./reattachFrame');
+import reattachFrame from './reattachFrame';
 
 async function waitForFile(page, doc) {
   /* waitForFile */

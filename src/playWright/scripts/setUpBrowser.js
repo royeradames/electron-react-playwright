@@ -1,5 +1,5 @@
 require('dotenv').config();
-import { chromium } from ('playwright');
+import { chromium } from 'playwright';
 
 async function setUpBrower(storageState = process.env.STORAGE) {
   /* start headless browser with credentials */

@@ -1,4 +1,4 @@
-import reattachFrame from('./reattachFrame');
+import reattachFrame from'./reattachFrame';
 
 async function goToDownloadYourInformation(context) {
   // Create a new page in a pristine context.

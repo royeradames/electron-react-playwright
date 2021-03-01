@@ -1,9 +1,9 @@
-import goToDownloadYourInformation from('./scripts/goToDownloadYourInformation')
-import storeCredentials from ('./scripts/storeCredentials');
-import askForFile from('./scripts/askForFiles');
-import waitForFile from('./scripts/waitForFile');
-import downloadFile from ('./scripts/downloadFile');
-import setUpBrower from ('./scripts/setUpBrowser');
+import goToDownloadYourInformation from './scripts/goToDownloadYourInformation'
+import storeCredentials from './scripts/storeCredentials';
+import askForFile from'./scripts/askForFiles';
+import waitForFile from'./scripts/waitForFile';
+import downloadFile from './scripts/downloadFile';
+import setUpBrower from './scripts/setUpBrowser';
 // const credentials = require('../credentials');
 
 async function index() {
