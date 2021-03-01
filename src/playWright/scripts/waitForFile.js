@@ -1,4 +1,4 @@
-const reattachFrame = require('./reattachFrame');
+import reattachFrame from ('./reattachFrame');
 
 async function waitForFile(page, doc) {
   /* waitForFile */
@@ -39,4 +39,4 @@ async function waitForFile(page, doc) {
   console.log('finish waiting for data');
 }
 
-module.exports = waitForFile;
+export default waitForFile;

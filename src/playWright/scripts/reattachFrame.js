@@ -6,4 +6,4 @@ async function reattachFrame(page) {
   return doc;
 }
 
-module.exports = reattachFrame;
+export default reattachFrame;

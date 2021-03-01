@@ -29,4 +29,4 @@ async function createFile(doc) {
   }
 }
 
-module.exports = createFile;
+export default createFile

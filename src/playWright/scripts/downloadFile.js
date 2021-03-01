@@ -1,7 +1,6 @@
 require('dotenv').config();
-const reattachFrame = require('./reattachFrame');
-
-const startReportDownloadStatus = require('./startReportDownloadStatus');
+import reattachFrame from ('./reattachFrame');
+import startReportDownloadStatus from ('./startReportDownloadStatus');
 
 async function downloadFile(page) {
   /* select child frame */
@@ -74,4 +73,4 @@ async function downloadFile(page) {
 }
 // await page.evaluate(() => {debugger})
 
-module.exports = downloadFile;
+export default downloadFile;

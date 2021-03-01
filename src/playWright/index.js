@@ -1,9 +1,9 @@
-const storeCredentials = require('./scripts/storeCredentials');
-const goToDownloadYourInformation = require('./scripts/goToDownloadYourInformation');
-const askForFile = require('./scripts/askForFiles');
-const waitForFile = require('./scripts/waitForFile');
-const downloadFile = require('./scripts/downloadFile');
-const setUpBrower = require('./scripts/setUpBrowser');
+import goToDownloadYourInformation from('./scripts/goToDownloadYourInformation')
+import storeCredentials from ('./scripts/storeCredentials');
+import askForFile from('./scripts/askForFiles');
+import waitForFile from('./scripts/waitForFile');
+import downloadFile from ('./scripts/downloadFile');
+import setUpBrower from ('./scripts/setUpBrowser');
 // const credentials = require('../credentials');
 
 async function index() {
@@ -31,3 +31,5 @@ async function index() {
 }
 
 index();
+
+export default index

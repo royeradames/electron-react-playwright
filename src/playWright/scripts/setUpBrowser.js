@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { chromium } = require('playwright');
+import { chromium } from ('playwright');
 
 async function setUpBrower(storageState = process.env.STORAGE) {
   /* start headless browser with credentials */
@@ -24,4 +24,4 @@ async function setUpBrower(storageState = process.env.STORAGE) {
   });
   return [browser, context];
 }
-module.exports = setUpBrower;
+export default setUpBrower;

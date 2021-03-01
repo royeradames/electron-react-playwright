@@ -13,4 +13,4 @@ function startReportDownloadStatus(download) {
   return intervalID;
 }
 
-module.exports = startReportDownloadStatus;
+export default startReportDownloadStatus;

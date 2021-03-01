@@ -1,4 +1,4 @@
-const reattachFrame = require('./reattachFrame');
+import reattachFrame from('./reattachFrame');
 
 async function goToDownloadYourInformation(context) {
   // Create a new page in a pristine context.
@@ -17,4 +17,4 @@ async function goToDownloadYourInformation(context) {
   return [page, doc];
 }
 
-module.exports = goToDownloadYourInformation;
+export default goToDownloadYourInformation;

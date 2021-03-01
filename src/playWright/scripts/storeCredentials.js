@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { chromium } = require('playwright');
+import { chromium } from ('playwright');
 
 async function login() {
   /* start browser */
@@ -41,4 +41,4 @@ async function login() {
   // close headfull browser
   await browser.close();
 }
-module.exports = login;
+export default login;
